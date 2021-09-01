@@ -1,9 +1,6 @@
 [core]
-    remote = my_remote
-['remote "myremote"']
-    url = gdrive://1c05S84h3uKjrCVU-EkpjG9F0FsgRfqXP
-['remote "minio"']
-    url = s3://test1
-    endpointurl = http://192.168.0.108:9000
-['remote "my_remote"']
+    remote = amazon
+['remote "amazon"']
     url = s3://kum
+    credentialpath = /home/kumud/.aws/credentials
+    profile = kumud
